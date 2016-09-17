@@ -1,0 +1,27 @@
+
+\documentclass{pracjourn} 
+\input{myheader.tex} 
+\begin{document} 
+\title{Some title}
+\author{Dr. Some Body} 
+\maketitle
+
+@
+This is good $\pi$ and good [[code]].
+
+<<*>>=
+package main
+<<imports>>
+func main(){
+    fmt.Println("helo")
+} 
+
+<<imports>>=
+import (
+    "fmt"
+)
+
+@
+\end{document} 
+
+
