@@ -1,6 +1,6 @@
 
-\documentclass{pracjourn} 
-\input{myheader.tex} 
+\documentclass{article} 
+\usepackage{noweb}
 \begin{document} 
 \title{Some title}
 \author{Dr. Some Body} 
